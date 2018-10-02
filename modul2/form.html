@@ -1,0 +1,75 @@
+<html>
+	<head><title>FORM</title></head>
+		<body>
+		<h2 align='center'><font color='#9966ff'>free registration</font></h2>
+		<form action='proses.php' method='post' name='form'><br>
+		<table width='68%' border='0' align='center' cellpadding='0'>
+		<tr>
+			<td width='15%'>Nama</td>
+			<td width='2%'>:</td>
+			<td width='83%'><input name='txtnama' type='text' id='txtnama'></td>
+		</tr>
+		<tr>
+			<td>tgl lahir</td>
+			<td>:</td>
+			<td><input name='txttgl' type='text' id='txttgl' size='4' maxlength='2'>/
+				<input name='txtbln' type='text' id='txtbln' size='4' maxlength='2'>/
+				<input name='txtthn' type='text' id='txtthn' size='8' maxlength='4'></td>
+		</tr>
+		<tr>
+			<td>Alamat</td>
+			<td>&nbsp;</td>
+			<td><textarea name='txtalamat' cols='40' rows='2' id='txtalamat'></textarea></td>
+		</tr>
+		<tr>
+			<td>Kota</td>
+			<td>:</td>
+			<td><input name='txtkota' type='text' id='txtkota'></td>
+		</tr>
+		<tr>
+			<td>Pekerjaan</td>
+			<td>:</td>
+			<td><select name='pkr' id='pkr'>
+				<option>tani</option>
+				<option>pilot</option>
+				<option>ojek</option></select>
+			</td>
+		</tr>
+		<tr>
+			<td>Jenis kelamin</td>
+			<td>:</td>
+			<td><input name='jk' type'radio' value='1' checked>laki-laki
+				<input name='jk' type'radio' value='2' checked>perempuan</td>
+		</tr>
+		<tr>
+			<td>hobi</td>
+			<td>:</td>
+			<td><input name='hb'type='checkbox' id='hb' value='1'>membaca</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td><input name='cck' type='checkbox' id='cck' value='2'>olahraga</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td><input name='aas' type='checkbox' id='aas' value='3'>makan</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td><input name='llp' type='checkbox' id='llp' value='4'>gaming</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td><input name='kirim' type='reset' id='kirim' value='send'>
+			<input name='cancel' type='reset' id='cancel' value='batal'></td>
+		</tr>
+		</table>
+		</form>
+		
+			
+		</body>
+</html>
